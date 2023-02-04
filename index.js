@@ -4,7 +4,7 @@ const http = require("http");
 const bot = new TelegramBot(process.env["TOKEN"], { "polling": true });
 
 http.createServer((req, res) => {
-	if(req.url == "/")
+	if(req.url == "/Mko1QlC8J0")
 		bot.sendMessage(process.env["USER_ID"], "Кто-то звонит вам в дверь!");
 	res.writeHead(200);
 	res.end("OK");
