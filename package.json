@@ -1,0 +1,19 @@
+{
+  "name": "zvonok",
+  "version": "1.0.0",
+  "description": "Звонок на дверь",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "PORT=18243 TOKEN=6194616922:AAG_ksHiL93PWWbl4BNb7F80zYyoinHhsBU USER_ID=977956638 node index.js"
+  },
+  "keywords": [
+    "zvonok",
+    "doorbell"
+  ],
+  "author": "Milk_Cool",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
